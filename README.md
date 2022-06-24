@@ -11,7 +11,7 @@
 - Jest
 
 ## Loom Video Demo:
-[https://www.loom.com/share](coming soon )
+[https://www.loom.com/share](https://www.loom.com/share/d7bbd93e98a8456cacc48229e1caa2f3)
 
 
 ## Live Demo:
