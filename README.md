@@ -1,1 +1,1 @@
-# crypto-currency
+# Digital-Currency
