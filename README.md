@@ -15,7 +15,7 @@
 
 
 ## Live Demo:
-[coming soon](#)
+[visit my application online](https://brian-nyachae-capstone-project.netlify.app/)
 
 ## Getting Started
 To get a local copy open and running follow these simple example steps.
