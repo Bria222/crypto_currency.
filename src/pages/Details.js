@@ -15,7 +15,6 @@ const Details = () => {
   }, []);
   return (
     <div className="data-cont">
-<<<<<<< HEAD
       <Header path="details" />
 
       <Chart
@@ -23,8 +22,6 @@ const Details = () => {
         title2={details.symbol}
         count={`${parseFloat(details.changePercent24Hr || 0).toFixed(8)} %`}
       />
-=======
->>>>>>> development
       <h3 className="coins-title">Coin Description</h3>
       <ul className="details-cont">
         <li className="details-light">
