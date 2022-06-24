@@ -2,6 +2,9 @@ import React, { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { FetchDetailsFunc } from '../redux/CoinDetails/CoinDetails';
+import Header from '../components/Header';
+import Chart from '../components/Chart';
+import './Details.css';
 
 const Details = () => {
   const { coinId } = useParams();
@@ -12,6 +15,16 @@ const Details = () => {
   }, []);
   return (
     <div className="data-cont">
+<<<<<<< HEAD
+      <Header path="details" />
+
+      <Chart
+        title1={details.name}
+        title2={details.symbol}
+        count={`${parseFloat(details.changePercent24Hr || 0).toFixed(8)} %`}
+      />
+=======
+>>>>>>> development
       <h3 className="coins-title">Coin Description</h3>
       <ul className="details-cont">
         <li className="details-light">
