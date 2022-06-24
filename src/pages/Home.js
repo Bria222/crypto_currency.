@@ -29,7 +29,7 @@ const Home = () => {
               name={coin.name}
               symbol={coin.symbol}
               id={coin.id}
-              price={coin.price}
+              price={coin.priceUsd}
               handleDetails={handleDetails}
             />
           ))}

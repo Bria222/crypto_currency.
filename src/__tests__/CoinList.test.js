@@ -40,11 +40,16 @@ describe('reducer of coin list ', () => {
     };
     expect(CoinsReducer([], action)).toEqual([
       {
+        changePercent24Hr: '0.00000000',
         id: 'bitcoin',
-        rank: '1',
-        symbol: 'BTC',
+        marketCapUsd: '0.0000',
         name: 'Bitcoin',
-        price: '21038.44804879',
+        priceUsd: '21038.44804879',
+        rank: '1',
+        supply: '0.0000',
+        symbol: 'BTC',
+        volumeUsd24Hr: '0.0000',
+        vwap24Hr: '0.00000000',
       },
     ]);
   });
